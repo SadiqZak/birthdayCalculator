@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.days-c, .hours-c, .mins-c, .sec-c{
+    padding-right: 50px;
+}
+
+.b-text{
+    font-size: 50px;
+}
+
+.txt-input{
+    font: bold;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 50px;
+}
+
+.txt-input >p{
+    font: normal;
+    font-size: small;
+    font-family: 'Oswald', sans-serif;
+}
+
+.textarea{
+    max-width: 400px;
+    width: 80%;
+    height: 50px;
+    font: bold;
+    font-family: 'Oswald', sans-serif;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    border-radius:5px ;
+    padding: 10px;
+
+}
+
+#btn-translate{
+    font: bold;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    width: 100px;
+    border: 0;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+#btn-translate:hover{
+    border: 1px solid black;
+    color:black;
+    background-color: white;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
